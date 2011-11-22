@@ -4,6 +4,8 @@ Backbone.actAs_Helpers = Backbone.actAs_Helpers || {};
 Backbone.actAs_Helpers.Configurable = Backbone.actAs_Helpers.Configurable || {};
 Backbone.actAs_Helpers.Configurable.Config = Backbone.actAs_Helpers.Configurable.Config || {};
 
+if( Backbone_actAs_Helpers_Configurable_Config ) _.extend(Backbone.actAs_Helpers.Configurable.Config, Backbone_actAs_Helpers_Configurable_Config);
+
 Backbone.actAs.Configurable = {
 
 	actAsConfigurable_type: 'Model',
